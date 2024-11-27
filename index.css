@@ -3,33 +3,3 @@
   margin: 0;
   box-sizing: border-box;
 }
-.one,
-.two,
-.three,
-.four,
-.five {
-  height: 25dvh;
-}
-.one {
-  background-color: red;
-}
-.two {
-  background-color: green;
-}
-.three {
-  background-color: yellow;
-}
-.four {
-  background-color: blue;
-}
-.five {
-  background-color: teal;
-}
-.container {
-  width: 80dvw;
-  background-color: black;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 5rem 1fr;
-  gap: 0.5rem;
-}
