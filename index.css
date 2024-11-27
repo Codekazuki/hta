@@ -6,11 +6,9 @@
 .section {
   background-color: green;
   border-radius: black 1px solid;
-  /* padding: 10px; */
 }
 .container {
   max-width: 1440px;
-
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
