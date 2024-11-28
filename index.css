@@ -69,3 +69,18 @@ img {
   width: 100%;
   object-fit: cover;
 }
+.parent-container {
+  max-width: 320px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.item {
+  border: 1px dashed red;
+}
+.item:nth-of-type(5) {
+  color: red;
+}
+.item:nth-of-type(20) {
+  color: purple;
+  background-color: aqua;
+}
