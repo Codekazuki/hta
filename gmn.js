@@ -11,8 +11,8 @@ const playAgain = document.querySelector(".again");
 // Function to check the guess
 function checkGuess(e) {
   e.preventDefault();
-
   let myGuess = Number(guess.value);
+
   if (isNaN(myGuess) || guess.value.trim() === "") {
     feedback.textContent = "Please enter a valid number!";
     guess.value = "";
@@ -23,6 +23,7 @@ function checkGuess(e) {
     feedback.textContent = "You got it right!";
     guess.value = "";
     playAgain.style.display = "block";
+    // document.querySelector("body").style.backgroundColor = "green";
   } else if (myGuess < 1 || myGuess > 100) {
     feedback.textContent = `Your mumu go dey guess ${myGuess}...... Guess between number 1 and 100`;
     guess.value = "";
