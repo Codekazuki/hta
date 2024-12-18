@@ -16,7 +16,8 @@ body {
 .gtn {
   color: green;
   margin-bottom: 1rem;
-  font-size: 5rem;
+  /* font-size: 5rem; */
+  font-size: clamp(1.5rem, 5vw, 4rem);
   text-align: center;
 }
 
@@ -26,7 +27,8 @@ body {
   text-align: center;
   background-color: rgb(42, 21, 21);
   padding: 8px 12px;
-  font-size: 3rem;
+  /* font-size: 2rem; */
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 #guessForm {
@@ -41,6 +43,7 @@ body {
   font-size: 1.2rem;
   font-weight: 100;
   font-size: 5rem;
+  /* font-size: clamp(3rem, 5vw, 8rem); */
 }
 
 #guess {
