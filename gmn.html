@@ -3,10 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="gmn.js"></script>
     <title>Document</title>
   </head>
   <body>
-    <h1>guess</h1>
+    <h1>Guess the Number!</h1>
+    <p>I have chosen a number between 1 and 100. Can you guess the number?</p>
+
+    <form id="guessForm">
+      <label for="guess">Your Guess</label>
+      <input type="number" id="guess" />
+      <input type="submit" id="submitGuess" value="Check Your Guess" />
+    </form>
+
+    <p id="feedback">I wish you the best of luck</p>
+    <script src="gmn.js"></script>
   </body>
 </html>
