@@ -20,6 +20,9 @@ body {
   font-size: clamp(1.5rem, 5vw, 4rem);
   text-align: center;
 }
+.ball {
+  display: none;
+}
 
 .num-mess {
   color: rgb(249, 250, 247);

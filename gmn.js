@@ -20,11 +20,12 @@ function checkGuess(e) {
     guess.value = "";
     return;
   }
-
+  attempt--;
   if (myGuess === randomNumber) {
     feedback.textContent = "You got it right!";
     guess.value = "";
     playAgain.style.display = "block";
+    document.querySelector(".ball").style.display = "block";
 
     // document.querySelector("body").style.backgroundColor = "green";
   } else if (attempt === 0) {
@@ -38,13 +39,12 @@ function checkGuess(e) {
     feedback.textContent =
       "Your guess was " + myGuess + ". That's too high. Try Again!";
     guess.value = "";
-    attempt--;
+
     attemptLeft.textContent = attempt;
   } else if (myGuess < randomNumber) {
     feedback.textContent =
       "Your guess was " + myGuess + ". That's too low. Try Again!";
     guess.value = "";
-    attempt--;
     attemptLeft.textContent = attempt;
   }
 }
