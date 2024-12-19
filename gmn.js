@@ -1,5 +1,6 @@
 // Generate a random number between 1 and 100
 let randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log(Math.floor(Math.random() * 10) + 1);
 console.log(`Random Number is ${randomNumber}`);
 
 // Select DOM elements
@@ -14,6 +15,7 @@ let attempt = 10;
 function checkGuess(e) {
   e.preventDefault();
   let myGuess = Number(guess.value);
+  console.log(myGuess);
 
   if (isNaN(myGuess) || guess.value.trim() === "") {
     feedback.textContent = "Please enter a valid number!";
