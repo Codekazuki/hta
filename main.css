@@ -16,17 +16,19 @@ body {
   display: flex;
   width: 60dvw;
   height: 60dvh;
+  border-radius: 4px;
+  overflow: hidden;
 }
 .sedan {
   background-color: orange;
-  border-radius: 12px 0 0 12px;
+  /* border-radius: 12px 0 0 12px; */
 }
 .suv {
   background-color: rgba(39, 220, 39, 0.719);
 }
 .luxury {
   background-color: darkgreen;
-  border-radius: 0 12px 12px 0;
+  /* border-radius: 0 12px 12px 0; */
 }
 h3 {
   font-size: 12px;
