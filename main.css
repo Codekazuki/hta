@@ -3,3 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+.grid-container {
+  max-width: 1100px;
+  margin: 30px auto;
+  background-color: green;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 1fr 2fr 3fr 4fr;
+}
+.item {
+  background-color: coral;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+.item1 {
+  grid-column: 1/4;
+}
+.item2 {
+  grid-row: 2/5;
+}
+.item8 {
+}
