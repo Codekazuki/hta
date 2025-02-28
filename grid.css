@@ -16,11 +16,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 20px;
+  padding: 4px 20px;
   background-color: var(--white);
 }
 .nav-links {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 .hero {
