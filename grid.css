@@ -1,6 +1,6 @@
 :root {
   --black: #000000;
-  --grey: #7a7a7a;
+  --grey: #75737353;
   --white: #ffffff;
   --primary: #28cb8b;
   --primary-2: #237d31;
@@ -11,6 +11,15 @@
   margin: 0;
   box-sizing: border-box;
 }
-.item-2 {
-  color: var(--primary);
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--white);
+}
+.nav-links {
+  display: flex;
+  gap: 24px;
 }
