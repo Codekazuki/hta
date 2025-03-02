@@ -89,4 +89,39 @@ button {
     padding: 4px 20px;
     background-color: var(--primary);
   }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 0.8rem;
+  }
+  .hero {
+    margin: 20px auto;
+    background-color: var(--grey);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+  }
+  .hero-writings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 4rem;
+  }
+  .hero-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+  .hero-image {
+    display: grid;
+    place-items: center;
+    padding-right: 2rem;
+  }
+  .green {
+    color: var(--primary);
+  }
+  img {
+    height: 40dvh;
+  }
 }
